@@ -1,6 +1,7 @@
 body {
     margin: 0;
     overflow: hidden;
+    font-family: 'Lato';
 }
 
 #main_container {
@@ -55,6 +56,24 @@ ul {
     border-radius: 50%;
 }
 
+#navigation_bar {
+    display: none;
+} 
+
+.name_container {
+    flex: 5;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.menu_button_container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 @media only screen and (max-width: 600px) {
     #side_navigation {
@@ -62,10 +81,10 @@ ul {
     }
 
     #navigation_bar {
-        position: fixed;
         background-color: salmon;
         width: 100%;
         height: 50px;
-        display: block;
+        display: flex;
+        flex-direction: row;
     } 
 }
