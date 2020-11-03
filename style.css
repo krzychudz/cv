@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    overflow: hidden;
+    overflow: hide;
     font-family: 'Roboto';
 }
 
@@ -38,6 +38,7 @@ ul {
     flex: 10;
     overflow-y: auto;
     background-color: #F4F4F4;
+    scroll-behavior: smooth;
 }
 
 .circular_image {
@@ -135,7 +136,87 @@ p {
     justify-content: center;
 }
 
+.section_title {
+    color: #2B2A2F;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 18px;
+}
+
 .social_background:hover { background-color: #C5314F; }
+
+.flex_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.job_description_column {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+}
+
+.job_date_column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.company_container {
+    padding-right: 24px;
+    color: #2B2A2F;
+}
+
+.job_name {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.job_description {
+    font-size: 18px;
+    padding-right: 22px;
+    margin-top: 16px;
+}
+
+.margin_top {
+    margin-top: 40px;
+}
+
+hr {
+    border-top: 1px solid #2B2A2F;
+    width: 100%;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+
+.company_name {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 6px;
+}
+
+.job_date {
+    font-weight: 900;
+}
+
+.content_subtitle {
+    font-size: 18px;
+    font-weight: 900;
+    color: #2B2A2F;
+}
+
+a:visited {
+    color: #F4F4F4;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color:#C5314F;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -151,4 +232,14 @@ p {
         flex-direction: row;
         box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
     } 
+
+    .flex_row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .job_date {
+        font-weight: 900;
+        margin-top: 16px;
+    }
 }
