@@ -138,9 +138,9 @@ p {
 
 .section_title {
     color: #2B2A2F;
-    font-size: 50px;
+    font-size: 38px;
     font-weight: 900;
-    margin-bottom: 18px;
+    margin-bottom: 24px;
 }
 
 .social_background:hover { background-color: #C5314F; }
@@ -168,7 +168,7 @@ p {
 }
 
 .job_name {
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 600;
 }
 
@@ -191,7 +191,7 @@ hr {
 
 
 .company_name {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
     margin-top: 6px;
 }
