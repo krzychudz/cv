@@ -225,17 +225,32 @@ hr {
 .skill_content {
     align-items: center;
     display: flex;
-    align-items: center;
     font-size: 22px;
     font-weight: 600;
     color:#2B2A2F;
     padding: 8px;
+    flex: 2;
+    justify-content: flex-start;
+}
+
+.skill_rate {
+    align-items: center;
+    display: flex;
+    color:#2B2A2F;  
+    font-weight: 600;
+    font-size: 18px;
+    padding: 8px;
+    flex: 2;
 }
 
 .skill_row {
     display: flex;
     flex-direction: row;
     padding: 8px;
+}
+
+.skill_icon {
+    flex: 1;
 }
 
 .only_mobile_divider {
