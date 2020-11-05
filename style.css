@@ -269,6 +269,10 @@ a:hover {
     color:#C5314F;
 }
 
+a:link {
+    color: #F4F4F4;
+  }
+
 progress[value] {
     /* Reset the default appearance */
     -webkit-appearance: none;
