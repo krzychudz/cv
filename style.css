@@ -225,7 +225,7 @@ hr {
 .skill_content {
     align-items: center;
     display: flex;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 600;
     color:#2B2A2F;
     padding: 8px;
@@ -238,7 +238,7 @@ hr {
     display: flex;
     color:#2B2A2F;  
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
     padding: 8px;
     flex: 2;
 }
@@ -247,7 +247,7 @@ hr {
     display: flex;
     flex-direction: row;
     padding: 8px;
-    width: 100%;
+    flex-wrap: wrap;
 }
 
 .skill_icon {
