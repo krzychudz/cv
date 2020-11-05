@@ -294,7 +294,7 @@ progress[value] {
   }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px)  {
     #side_navigation {
         display: none;
     }
