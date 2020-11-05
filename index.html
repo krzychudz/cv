@@ -1,12 +1,20 @@
 <html>
 <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </head>
 
 <body>
-    <div id="navigation_bar">
-            
-    </div>
+    <nav id="navigation_bar">
+        <div class = "name_container"> Krzysztof Dziedzic </div>
+        <div class = "menu_button_container"> 
+            <i class = "icon-menu"></i>
+        </div>
+        
+    </nav>
     <div id="main_container"> 
 
         <div id="side_navigation"> 
@@ -18,69 +26,147 @@
 
              <nav class="sub_menu">
                  <ul>
-                    <li>About</li>
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
+                    <li><a href = "#about_section">O mnie</a></li>
+                    <li><a href = "#expirience_section">Doświadczenie</a></li>
+                    <li><a href = "#education_section">Edukacja</a></li>
+                    <li><a href = "#skills_section">Umiejętności</a></li>
                  </ul>
               </nav>
             </div>
 
         <section id="main_content">
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
-            Main Content </br>
+            <section id = "about_section" class = "section">
+                <div class = "name_section"> <span style="color: #2B2A2F;"> Krzysztof </span> Dziedzic </div>
+                <div class = "personal_info_section"> 530 006 264 &#8231;  <span style="color: #2B2A2F;"> KRZYSZTOF.DZIEDZIC175@GMAIL.COM  </div>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut placerat ante sed sem congue, eu mollis libero rutrum. Nunc sollicitudin metus ligula, in imperdiet risus fringilla ut. Suspendisse eget tristique mi. Mauris commodo ex id dolor sollicitudin ultricies. Aliquam rutrum auctor ligula id luctus. Lorem ipsum dolor sit amet. </p>
+                <div class="social_container">
+                    <a href="https://www.linkedin.com/in/krzysztof-dziedzic-750720180/">
+                        <div class = "social_background">
+                            <i class="icon-linkedin"></i>
+                        </div>
+                     </a>
+                    <a href="https://github.com/krzychudz">
+                        <div class = "social_background">
+                            <i class="icon-github-circled"></i>
+                        </div>
+                    </a>
+                    <a href="https://www.facebook.com/krzysztof.p.dziedzic">
+                        <div class = "social_background">
+                            <i class="icon-facebook"></i>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+            <section id = "expirience_section" class = "section">
+                <div class = "section_title"> DOŚWIADCZENIE </div>
+                <div class = "flex_row company_container"> 
+                    <div class="job_description_column"> 
+                        <div class = "job_name">REGULAR ANDROID DEVELOPER</div>
+                        <div class = "company_name">MoodUp Team</div>
+                        <div class = "job_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut placerat ante sed sem congue, eu mollis libero rutrum.</div>
+                    </div>
+                    <div class="job_date_column">
+                        <div class = "job_date">WRZESIEŃ 2019 - <span style="color: black;"> OBECNIE </span></div>
+                     </div>
+                </div>
+
+                <hr>
+
+                <div class = "flex_row company_container"> 
+                    <div class="job_description_column"> 
+                        <div class = "job_name">ANDROID DEVELOPER INTERN</div>
+                        <div class = "company_name">MoodUp Team</div>
+                        <div class = "job_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut placerat ante sed sem congue, eu mollis libero rutrum.</div>
+                    </div>
+                    <div class="job_date_column">
+                        <div class = "job_date">CZERWIEC 2019 - <span style="color: black;"> SIERPIEŃ 2019 </span></div>
+                     </div>
+                </div>
+            </section>
+
+            <section id = "education_section" class = "section">
+                <div class = "section_title"> EDUKACJA </div>
+
+                <div class = "flex_row company_container"> 
+                    <div class="job_description_column"> 
+                        <div class = "job_name">STUDIA MAGISTERSKIE</div>
+                        <div class = "content_subtitle">ZAAWANSOWANE TECHNOLOGIE INTERNETOWE</div>
+                        <div class = "company_name">Politchnika Poznańska</div>
+                        <div class = "job_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut placerat ante sed sem congue, eu mollis libero rutrum.</div>
+                    </div>
+                    <div class="job_date_column">
+                        <div class = "job_date">PAŹDZIERNIK 2020 - <span style="color: black;"> OBECNIE </span></div>
+                     </div>
+                </div>
+
+                <hr>
+
+                <div class = "flex_row company_container"> 
+                    <div class="job_description_column"> 
+                        <div class = "job_name">STUDIA INŻYNIERSKIE</div>
+                        <div class = "content_subtitle">INFORMATYKA</div>
+                        <div class = "company_name">Politchnika Poznańska</div>
+                        <div class = "job_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut placerat ante sed sem congue, eu mollis libero rutrum.</div>
+                    </div>
+                    <div class="job_date_column">
+                        <div class = "job_date">PAŹDZIERNIK 2016 - <span style="color: black;"> LUTY 2020 </span></div>
+                     </div>
+                </div>
+
+            </section>
+
+            <section id = "skills_section" class = "section">
+                <div class = "section_title"> UMIEJĘTNOŚCI </div>
+                <div class = "skills_container">
+                    <div class = "skills_column"> 
+                        <div class = "skill_row"> 
+                            <div class = "skill_icon"> <span class="iconify" data-icon="flat-color-icons:android-os" data-inline="false"></span> </div>
+                            <div class = "skill_content">ANDROID</div>
+                            <div class = "skill_content"> <progress max="100" value="80"></progress> </div>
+                            <div class = "skill_rate">4/5</div>
+                        </div>
+
+                        <div class = "skill_row"> 
+                            <div class = "skill_icon"> <span class="iconify" data-icon="vscode-icons:file-type-kotlin" data-inline="false"></span> </div>
+                            <div class = "skill_content">KOTLIN</div>
+                            <div class = "skill_content"> <progress max="100" value="80"></progress> </div>
+                            <div class = "skill_rate">4/5</div>
+                        </div>
+
+                        <div class = "skill_row"> 
+                            <div class = "skill_icon"> <span class="iconify" data-icon="logos:java" data-inline="false"></span> </div>
+                            <div class = "skill_content">JAVA</div>
+                            <div class = "skill_content"> <progress max="100" value="80"></progress> </div>
+                            <div class = "skill_rate">4/5</div>
+                        </div>
+                    </div>
+
+                    <hr class = "only_mobile_divider">
+
+                    <div class = "skills_column"> 
+                        <div class = "skill_row"> 
+                            <div class = "skill_icon"> <span class="iconify" data-icon="logos:flutter" data-inline="false"></span> </div>
+                            <div class = "skill_content">FLUTTER</div>
+                            <div class = "skill_content"> <progress max="100" value="60"></progress> </div>
+                            <div class = "skill_rate">3/5</div>
+
+                        </div>
+                        <div class = "skill_row"> 
+                            <div class = "skill_icon"> <span class="iconify" data-icon="logos:nodejs-icon" data-inline="false"></span> </div>
+                            <div class = "skill_content">NODE.JS</div>
+                            <div class = "skill_content"> <progress max="100" value="60"></progress> </div>
+                            <div class = "skill_rate">3/5</div>
+                        </div>
+                        <div class = "skill_row"> 
+                            <div class = "skill_icon"> <span class="iconify" data-icon="vscode-icons:file-type-reactjs" data-inline="false"></span> </div>
+                            <div class = "skill_content">REACT</div>
+                            <div class = "skill_content"> <progress max="100" value="60"></progress> </div>
+                            <div class = "skill_rate">3/5</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
          </section>
     </div>
 </body>
