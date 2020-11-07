@@ -1,6 +1,7 @@
 body {
     margin: 0;
     overflow: hide;
+    overflow-x: hidden;
     font-family: 'Roboto';
 }
 
@@ -42,8 +43,8 @@ ul {
 }
 
 .circular_image {
-    width: 140px;
-    height: 140px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     padding: 0;
     display: block;
@@ -72,10 +73,32 @@ ul {
 
 .menu_button_container {
     flex: 1;
-    display: flex;
     justify-content: center;
     align-items: center;
     color: #F4F4F4;
+}
+
+.menu_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: #3D3B3F;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+}
+
+.menu_button_container:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .menu_button_container:hover {
@@ -307,6 +330,7 @@ progress[value] {
         display: flex;
         flex-direction: row;
         box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
+        overflow: hidden;
     } 
 
     .flex_row {
