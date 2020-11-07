@@ -87,12 +87,13 @@ ul {
 
 .dropdown-content {
     display: none;
-    position: absolute;
+    position: fixed;
     left: 0;
-    background-color: #3D3B3F;
+    background-color: #2B2A2F;
     width: 100%;
     z-index: 1;
     text-align: center;
+    opacity: 0.95;
 }
 
 .menu_button_container:hover .dropdown-content {
@@ -331,6 +332,8 @@ progress[value] {
         flex-direction: row;
         box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
         overflow: hidden;
+        position: fixed;
+        top: 0px;
     } 
 
     .flex_row {
