@@ -50,13 +50,9 @@ ul {
     display: block;
     margin: auto;
     border: 8px solid #959D92;
-}
-
-
-.circular_image img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
+    background: url('assets/me1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #navigation_bar {
@@ -297,27 +293,25 @@ a:hover {
 
 a:link {
     color: #F4F4F4;
-  }
+}
 
 progress[value] {
     /* Reset the default appearance */
     -webkit-appearance: none;
     appearance: none;
-    border-radius: 7px;
-  
+    border-radius: 7px;  
     width: 150px;
     height: 15px;
-  }
+}
 
-  progress::-webkit-progress-bar {
+progress::-webkit-progress-bar {
     background-color: #2B2A2F;
     border-radius: 4px;
-  }
+}
 
-  progress::-webkit-progress-value {
-    background-color: #C5314F;
- 
-  }
+progress::-webkit-progress-value {
+    background-color: #C5314F; 
+}
 
 
 @media only screen and (max-width: 600px)  {
