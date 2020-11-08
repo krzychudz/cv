@@ -40,6 +40,7 @@ ul {
     overflow-y: auto;
     background-color: #F4F4F4;
     scroll-behavior: smooth;
+    padding: 0;
 }
 
 .circular_image {
@@ -50,13 +51,9 @@ ul {
     display: block;
     margin: auto;
     border: 8px solid #959D92;
-}
-
-
-.circular_image img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
+    background: url('assets/me1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #navigation_bar {
@@ -117,6 +114,7 @@ ul li:hover {
     cursor: pointer;
 }
 
+
 .name_section {
     font-size: 64px;
     font-weight: 900;
@@ -130,11 +128,19 @@ ul li:hover {
 .section {
     display: flex;
     flex-direction: column;
-    height: 100%;
     justify-content: center;
     padding-left: 32px;
     padding-right: 32px;
-    padding-top: 16px;
+}
+
+.section:first-child, section:last-child {
+    padding-top: 25vh;
+    padding-bottom: 25vh;
+}
+
+.section:nth-child(2), section:nth-child(3) {
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 .skills_container {
@@ -158,6 +164,7 @@ p {
     display: flex;
     flex-direction: row;
     margin-top: 24px;
+    flex-wrap: wrap;
 }
 
 .social_background {
@@ -242,9 +249,15 @@ hr {
     color: #2B2A2F;
 }
 
+.skill_rate_container {
+    display: flex;
+    flex-direction: row;
+}
+
 .iconify { 
     width: 48px; 
     height: 48px;
+    color: #2B2A2F;
 }
 
 .skill_content {
@@ -297,27 +310,25 @@ a:hover {
 
 a:link {
     color: #F4F4F4;
-  }
+}
 
 progress[value] {
     /* Reset the default appearance */
     -webkit-appearance: none;
     appearance: none;
-    border-radius: 7px;
-  
+    border-radius: 7px;  
     width: 150px;
     height: 15px;
-  }
+}
 
-  progress::-webkit-progress-bar {
+progress::-webkit-progress-bar {
     background-color: #2B2A2F;
     border-radius: 4px;
-  }
+}
 
-  progress::-webkit-progress-value {
-    background-color: #C5314F;
- 
-  }
+progress::-webkit-progress-value {
+    background-color: #C5314F; 
+}
 
 
 @media only screen and (max-width: 600px)  {
