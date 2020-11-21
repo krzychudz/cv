@@ -232,8 +232,14 @@ p {
 }
 
 .job_description {
-    font-size: 18px;
+    font-size: 16px;
     padding-right: 22px;
+}
+
+.study_desctiption {
+    font-size: 16px;
+    padding-right: 22px;
+    margin-top: 10px;
 }
 
 .margin_top {
