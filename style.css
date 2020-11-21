@@ -109,9 +109,25 @@ ul li {
     font-weight: 550;
 }
 
+
+
 ul li:hover {
     color: #C5314F;
     cursor: pointer;
+}
+
+ol {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+ol li::before {
+    content: "\2022"; 
+    color: black;
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em;
 }
 
 
@@ -216,9 +232,14 @@ p {
 }
 
 .job_description {
-    font-size: 18px;
+    font-size: 16px;
     padding-right: 22px;
-    margin-top: 16px;
+}
+
+.study_desctiption {
+    font-size: 16px;
+    padding-right: 22px;
+    margin-top: 10px;
 }
 
 .margin_top {
@@ -247,6 +268,7 @@ hr {
     font-size: 18px;
     font-weight: 900;
     color: #2B2A2F;
+    margin-top: 8px;
 }
 
 .skill_rate_container {
@@ -346,6 +368,7 @@ progress::-webkit-progress-value {
         overflow: hidden;
         position: fixed;
         top: 0px;
+        z-index: 10;
     } 
 
     .flex_row {
